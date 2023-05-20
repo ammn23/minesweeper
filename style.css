@@ -1,0 +1,82 @@
+#easy,#medium,#hard{
+    background-color: red; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight:bold;
+    text-align: center;
+}
+
+
+#board {
+    width: 240px;
+    height: 240px;
+    border: 10px solid darkgray;
+    background-color: lightgray;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#board div{
+    width: 28px;
+    height: 28px;
+    border: 1px solid whitesmoke;
+    /*text*/
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tile-clicked{
+    background:darkgrey;
+}
+
+.n1 {
+    color: blue;
+}
+
+.n2 {
+    color: green;
+}
+
+.n3 {
+    color: red;
+}
+
+.n4 {
+    color: navy;
+}
+
+.n5 {
+    color: brown;
+}
+
+.n6 {
+    color: teal;
+}
+
+.n7 {
+    color: black;
+}
+
+.n8 {
+    color: gray;
+}
+
+#flag-button {
+    width: 100px;
+    height: 50px;
+    font-size: 25px;
+    background-color: lightgray;
+    border: none;
+}

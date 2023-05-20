@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Minesweeper</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="grid.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:100" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Выберите уровень</h1>
+        <div>
+            <button id="easy" onclick="setLevel('264px','264px',this.id)">Легкий</button>
+            <button id="medium" onclick="setLevel('470px','470px',this.id)">Средний</button>
+            <button id="hard" onclick="setLevel('880px','470px',this.id)">Сложный</button>
+        </div>
+        <h1>Количество мин <span id="mines-number">0</span></h1>
+        <div id="board"></div>
+        <br>
+        <button id="flag-button">🚩</button>
+    </body>
+</html>
